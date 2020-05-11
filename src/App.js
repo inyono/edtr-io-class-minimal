@@ -10,7 +10,8 @@ class App extends React.Component {
         <p>
           Edit <code>src/Editor.js</code> and save to reload.
         </p>
-        <Editor />
+        <Editor initialState={{ plugin: 'text' }} />
+        <Editor initialState={{ plugin: 'counter' }} />
       </div>
     )
   }
